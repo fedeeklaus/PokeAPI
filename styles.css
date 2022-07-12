@@ -1,0 +1,128 @@
+body{
+    margin: 0px !important;
+    padding: 0px !important;;
+    background-color: black !important;
+    font-family: 'Inter', sans-serif !important;
+font-family: 'Poppins', sans-serif !important;
+}
+
+.separar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.body{
+    background-image: url(./static/pokemon1.jpg);
+    background-size: cover;
+    width: auto;
+    height: 100%;
+    margin:auto;
+    padding-top: 10vh;
+}
+
+
+
+.card {
+    padding: 8px;
+    background: rgba(151, 151, 151, 0.26) !important;
+border-radius: 16px !important;
+box-shadow: 0 4px 30px rgba(243 243 243 / 24%) !important;
+backdrop-filter: blur(6px) !important;
+-webkit-backdrop-filter: blur(6px) !important;
+border: 1px solid rgba(255, 255, 255, 0.31) !important;
+margin-bottom: 15px;
+min-width: 250px !important;
+max-width: 250px !important;
+transition: all 2s ease;
+
+
+}
+
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(197, 191, 191) !important;
+
+    width: 98%;
+    justify-content: center;
+  
+background: rgba(66, 66, 66, 0.473);
+border-radius: 2px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.44);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
+border: 1px solid rgba(255, 255, 255, 0.158);
+margin-bottom: 10px !important;
+
+}
+.redon{
+    max-height: 23vh!important;
+    min-height: 23vh!important;
+}
+
+.list-group-item{
+    display:inline-flex !important;
+    border: solid 0px white !important; 
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    background-color: transparent !important;
+}
+
+.pokeType{
+    display:inline-flex;
+}
+
+.redon{
+    border-radius: 20px;;
+}
+
+.centrar{
+    margin:auto !important;
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    color: white !important;
+}
+
+p{
+    color: white;
+}
+
+.bg-light{
+
+margin-bottom: 25px;
+}
+.card{
+    height: 80vh;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+    .margen{
+        margin-bottom: 25px;
+    }
+
+   .background{
+    background: rgba(143 141 141 / 16%);
+
+    box-shadow: 0 4px 30px rgba(243 243 243 / 24%) !important;
+backdrop-filter: blur(5.8px);
+-webkit-backdrop-filter: blur(5.8px);
+border: 1px solid rgba(56, 56, 56, 0.3);
+
+   }
+
+   .tamañoIMG{
+    width: 232px;
+    height: 151px;
+   }
+
+   .row{
+    justify-content: space-around !important;
+   }
